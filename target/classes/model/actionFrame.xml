@@ -1,0 +1,36 @@
+<p:sld
+	xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"
+	xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"
+	xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+	<p:timing>
+		<p:tnLst>
+			<p:par>
+				<p:cTn id="1" dur="indefinite" restart="never"
+					nodeType="tmRoot">
+					<p:childTnLst>
+						<p:seq concurrent="1" nextAc="seek">
+							<p:cTn id="2" dur="indefinite"
+								nodeType="mainSeq">
+								<p:childTnLst></p:childTnLst>
+							</p:cTn>
+							<p:prevCondLst>
+								<p:cond evt="onPrev" delay="0">
+									<p:tgtEl>
+										<p:sldTgt />
+									</p:tgtEl>
+								</p:cond>
+							</p:prevCondLst>
+							<p:nextCondLst>
+								<p:cond evt="onNext" delay="0">
+									<p:tgtEl>
+										<p:sldTgt />
+									</p:tgtEl>
+								</p:cond>
+							</p:nextCondLst>
+						</p:seq>
+					</p:childTnLst>
+				</p:cTn>
+			</p:par>
+		</p:tnLst>
+	</p:timing>
+</p:sld>
