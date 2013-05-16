@@ -1,8 +1,9 @@
 ﻿JPowerpoint
 ===========
 	JPowerpoint是09年时编写的一个生成office powerpoint的Java库。
-	
 Example:
+===========	
+
 	//...
 	PowerPoint ppt = PowerPointHelper.create("test.pptx"); //创建ppt文件
 	Slide slide = ppt.addSlide(); //添加幻灯片
